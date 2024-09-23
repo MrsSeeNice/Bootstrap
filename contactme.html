@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="./dogbehaviors.html">Dog Behaviors</a>
+              <a class="nav-link" href="./locationstowalk.html">Locations to Walk Dogs</a>
+              <a class="nav-link" href="./contactme.html" >Contact Me</a>
+              <a class="nav-link" href="./aboutpage.html" >About this Page</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Contact Page</title>
+        </head>
+        <body>
+        <link rel="./style.css">
+      
+          <h1>Contact</h1>
+      <form action="#" method="get">
+       
+        <div>
+          <label for="first-name">
+            First Name:
+          <input type="text" name="first-name" required/></label>
+        
+          </div>
+      
+        <div class="form-row">
+          <label>
+          Last Name:
+          <input type="text" name="Last Name" required/>
+        </label>
+      </div>
+      
+      <div class="form-row">
+        <label>
+        E-mail:
+        <input type="email" name="email" required/>
+      </label>
+      </div>
+      
+      <div class="form-row"></div>
+        <label>
+        Phone #:
+        <input type="tel" 
+        name="phone number" 
+        required>
+      </label>
+      </div>
+      
+      <div class="form-row"></div>
+        <label>
+        Message:
+        <input type="text" 
+        name="Message" 
+        required>
+      </label>
+      </div>
+      
+      <div class="form-row"></div>
+        <label>
+        Breed:
+        <select name="Dog Breed">
+          <option value="Boston Terrier">Boston Terrier</option>
+          <option value="Frenchie">Frenchie</option>
+          <option value="Demon Dog">Demon Dog</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+      </label>
+      </div>
+      
+      <div class="form-row">
+        <fieldset>
+          <legend>Topic</legend>
+          <label>
+            <input type="radio" name="topic" value="html"/>
+            Dog Behaviors
+          </label>
+          <input type="radio"  name="topic" value="css"/>
+          Where to Walk My Dog
+          <label></label>
+          <input type="radio"  name="topic" value="JS"/>
+          Other
+        </fieldset>
+      </div>
+      
+      <div class="form-row">
+      <fieldset>
+        <legend>Request</legend>
+        <label>
+          <input type="checkbox" name="advice" checked/>
+          Advice
+        </label>
+      
+        <label>
+          <input type="checkbox" name="information" checked/>
+          Information
+        </label>
+      
+        <label>
+          <input type="checkbox" name="motivation" checked/>
+          Other
+        </label>
+      </fieldset>
+      </div>
+      
+      <div class="form-row">
+      <label>
+        urgency (0-10)
+        <input type="range" min="0" max="10" name="urgency">
+      </label>
+      </div>
+      
+      
+      <div>
+        <br>
+        <button type="submit" >send</button>
+        <button type="clear" >clear</button>
+      </div>
+      </form>
+        </body>
+      </html>
+</body>
+</html>

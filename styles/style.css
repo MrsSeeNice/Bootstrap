@@ -1,0 +1,8 @@
+.body {background-color: rgb(239, 155, 29);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
